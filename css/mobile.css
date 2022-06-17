@@ -1,0 +1,34 @@
+#wrapper {
+  width: 90%;
+}
+
+#Contacts-section {
+  width: 100%;
+}
+
+#experience-section {
+  width: 100%;
+  clear: both;
+
+  /* Дополнительные стили для нового дизайна */
+  border-top: 1px solid #ccc;
+  margin-top: 20px;
+}
+
+#my-info-section {
+  width: 100%;
+  clear: both;
+
+  /* Additional styling for our new layout */
+  border-top: 1px solid #ccc;
+  margin-top: 20px;
+}
+
+#project-price-section {
+  width: 100%;
+  clear: both;
+
+  /* Additional styling for our new layout */
+  border-top: 1px solid #ccc;
+  margin-top: 20px;
+}
