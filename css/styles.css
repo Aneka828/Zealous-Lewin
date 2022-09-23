@@ -7,13 +7,18 @@ body {
   width: 100%;
   font-family: "Montserrat", sans-serif;
   background-color: #f5f9ff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 h1 {
   color: #333333;
 }
+
+.container-fluid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 80px;
+}
+
 .wrapper {
   display: flex;
   flex-direction: row;
@@ -21,9 +26,8 @@ h1 {
   justify-content: space-between;
   position: relative;
 /* added width & margin parameters*/
-margin: 0 auto;
-  width: 1000px;
-  max-width: 90%;
+  margin: 0 auto;
+  max-width: 1000px;
   min-width: 500px;
 }
 
@@ -33,7 +37,6 @@ margin: 0 auto;
   top: 36px;
   right: 80px;
   display: flex;
-  flex-direction: row;
   align-items: center;
 }
 .linkedin-link,
@@ -68,7 +71,7 @@ margin: 0 auto;
 }
 /*Experience section*/
 .experience-section {
-  width: 268px;
+  max-width: 268px;
   display: flex;
   flex-direction: column;
   align-items: center;
